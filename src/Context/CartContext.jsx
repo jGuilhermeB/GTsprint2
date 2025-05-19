@@ -10,6 +10,8 @@ const CartProvider = ({ children }) => {
     }
     function removeFromCart() {
         setCount((count) => count -1)
+    }function removeItem() {
+       setCount(0)
     }
     return (
         <>

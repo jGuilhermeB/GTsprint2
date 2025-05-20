@@ -29,8 +29,7 @@ const produtos = [
 ]
 
 const ProductCard = () => {
-    const  produtos  = useContext(ProductsContext)
-    // const {addToCart} = useContext(CartContext)
+    const produtos = useContext(ProductsContext)
     const { addToCart } = useContext(CartContext)
     return (
         <section className=' ml-8'>
